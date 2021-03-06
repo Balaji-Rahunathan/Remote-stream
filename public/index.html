@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Viewer</title>
-    <meta charset="UTF-8" />
-    <link href="/styles.css" rel="stylesheet" />
-  </head>
-  <body>
+
+<head>
+  <title>Viewer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="video-container">
     <video playsinline autoplay muted></video>
-    <!-- <button id="enable-audio">Enable audio</button> -->
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/watch.js"></script>
-  </body>
+  </div>
+  <!-- <button id="enable-audio">Enable audio</button> -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/watch.js"></script>
+</body>
+
 </html>
